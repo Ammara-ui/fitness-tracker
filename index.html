@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background-container">
+        <link href="img.jpg">
+    </div>
+    <h1>Workout Tracker</h1>
+    <div id="pushup-counter">
+        <h2>Pushup Count:</h2>
+        <p id="pushup-count">0</p>
+        <button id="increment-btn" onclick="increment('pushup')">INCREMENT</button>
+        <button id="save-btn" onclick="save('pushup')">SAVE</button>
+        <p id="pushup-history">Last 30 Days: </p>
+    </div>
+
+    <div id="plank-counter">
+        <h2>Plank Minutes:</h2>
+        <p id="plank-minutes">0</p>
+        <button id="increment-btn" onclick="increment('plank')">INCREMENT</button>
+        <button id="save-btn" onclick="save('plank')">SAVE</button>
+        <p id="plank-history">Last 30 Days: </p>
+    </div>
+
+    <div id="run-counter">
+        <h2>Miles Ran:</h2>
+        <p id="miles-ran">0</p>
+        <button id="increment-btn" onclick="increment('run')">INCREMENT</button>
+        <button id="save-btn" onclick="save('run')">SAVE</button>
+        <p id="run-history">Last 30 Days: </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
